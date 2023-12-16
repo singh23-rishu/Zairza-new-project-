@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  color-scheme: dark light;
+}
+
+body{
+  background-color: green;
+  min-height: 100vh;
+  color: white;
+  
+  }
+
+#class1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#class2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80vw;
+  height: 90vh;
+  padding: 35px;
+  border-radius: 10px;
+  background-color: #282021
+  
+  
+}
+
+
+.box1{
+  height: 40px;
+  width: 95%;
+  background-color:  #282828
+
+
+}
+
+
+#class3{
+  padding: 10px;
+  padding-left: 0px;
+  width: 100%;
+  
+}
+
+button{
+  width: 10%;
+  height: 30px;
+  border-radius: 5px;
+  
+  background-color: green;
+}
